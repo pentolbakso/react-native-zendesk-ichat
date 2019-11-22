@@ -56,7 +56,6 @@ repositories {
 dependencies {
     implementation "com.facebook.react:react-native:${safeExtGet('reactnativeVersion', '+')}"
     implementation 'com.zopim.android:sdk:1.4.6'
-    implementation group: 'com.zendesk', name: 'sdk', version: '1.+'
 }
 
 def configureReactNativePom(def pom) {
